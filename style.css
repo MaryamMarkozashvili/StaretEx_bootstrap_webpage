@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Exo-Italic";
+    src: url(fonts/Exo-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Exo-Medium";
+    src: url(fonts/Exo-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Exo-Regular";
+    src: url(fonts/Exo-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Exo-Thin";
+    src: url(fonts/Exo-Thin.ttf);
+}
+
+@font-face {
+    font-family: "Lato-Regular";
+    src: url(fonts/Lato-Regular.ttf);
+}
+
+.header {
+    background: url(images/header.png);
+    background-size: cover;
+    height: 813px;
+    /* background-position-y: bottom; */
+}
+
+.bg-heading {
+    font-family: "Exo-Thin";
+    font-size: 60px;
+}
+
+.mybtn {
+    font-family: "Exo-Regular";
+    outline: none;
+    border: none;
+    background: #ff6d6d;
+    border-radius: 5px;
+    letter-spacing: 3px;
+}
+
+.noneed {
+    font-family: "Exo-Regular";
+    color: #282828;
+}
+
+.orange {
+    font-family: "Exo-Medium";
+    color: #ff6d6d;
+    letter-spacing: 2px;
+}
+
+.end {
+    position: absolute;
+    right: 0;
+}
+
+.bold-heading {
+    font-family: "Exo-Medium";
+    font-size: 40px;
+}
+
+.bold-heading span {
+    color: #ff6d6d;
+}
+
+.sec-3 {
+    background: #f6f5f3;
+}
+
+.sec-4 {
+    background: url(images/bg-rect.png);
+    height: 550px;
+    background-repeat: no-repeat;
+}
+
+.sec-5 {
+    background: url(images/BG.png);
+    height: 650px;
+}
+
+.position {
+    color: #ff6d6d;
+}
+
+.italic {
+    font-family: "Exo-Italic";
+    color: #b3b4b6;
+}
+
+.sec-6 {
+    background: #f6f5f3;
+}
+
+.sec-7 {
+    background: #323969;
+}
+
+form input {
+    background: #464c77;
+    outline: none;
+    border: 1px solid #999cb4;
+    border-radius: 5px;
+}
+
+form input::placeholder {
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.regular {
+    font-family: "Exo-Regular";
+    color: #a8aabc;
+}
+
+.footer-menu>li>a {
+    font-family: "Exo-Regular";
+    color: #717171;
+}
+
+.footer-input {
+    border: 1.5px solid #b8b8bf;
+    border-radius: 3px;
+}
+
+.footer-input::placeholder {
+    letter-spacing: 2px;
+    color: #b8b8bf;
+}
+
+.footer-button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #ff6d6d;
+    margin-left: -10px;
+    padding: 18px;
+}
+
+.socials span {
+    color: #cbcbcb;
+}
+
+.free {
+    font-family: "Exo-Regular";
+}
+
+.height {
+    height: 720px
+}
